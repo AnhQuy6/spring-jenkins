@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AccontController {
-    @GetMapping("/hello")
+    @GetMapping()
     public String hello() {
-        return "Spring boot with docker 123";
+        return "Spring boot with docker 123 q333333ss";
     }
 }
